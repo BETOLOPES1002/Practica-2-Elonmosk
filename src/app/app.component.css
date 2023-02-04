@@ -1,0 +1,31 @@
+.all-content{
+  width: 80vw;
+  margin: auto;
+  text-align: justify;
+}
+
+.container{
+  margin:5vw;
+}
+
+.content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+h2{
+background-color: transparent;
+}
+.new-content2{
+ display: grid;
+ grid-template-rows: repeat(5,0.2fr);
+ margin: 5px;
+}
+
+p{
+  margin: 1px;
+}
+.content2{
+  display: grid;
+  grid-template-columns: repeat(2,.8fr);
+}
